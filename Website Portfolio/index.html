@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Website name -->
+<head> 
+    <link rel="icon" href="images/book-solid.svg" type="image/svg">
+    <title>Damian Mena - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-family: Cambria, sans-serif;">
+
+    <script>
+        function copyToClipboard(text) {
+          navigator.clipboard.writeText(text)
+            .then(() => alert(text + ' copied to clipboard!'))
+            .catch(err => console.error('Failed to copy: ', err));
+        }
+      </script>
+<!-- Website Titles -->
+    <header>
+        <h2>Damian Mena</h2>
+        <h5><span onclick="copyToClipboard('mdamian8305@gmail.com')" style="cursor:pointer; color:#096192; text-decoration:underline;">mdamian8305@gmail.com</span>
+            <split>|</split> <span onclick="copyToClipboard('(786)637-8372')" style="cursor:pointer; color:#096192; text-decoration:underline;">(786) 637-8372</span>
+            <split>|</split> Miami, Florida</h5>
+    </header>
+
+    <nav class="navbar"> </nav>
+
+    <main>
+        <div class="portfolio-container">
+            <section class="left-side" style="padding-left: 20px;">
+<!-- Work Experience -->
+                <h3 style="text-align: center;">Work Experience</h3>
+                <h4>Sales Associate at <a href="https://oldnavy.gap.com" target="_blank" style="cursor:pointer; color:#096192; text-decoration:underline;">Old Navy - GAP INC</a></h4>
+                <p class="education">February 2022 - March 2024</p>
+                <ul>
+                    <li>Offered Incentives, credit cards, and adjusted to the
+                    customers needs to offer these persuasively.</li>
+                    <li>Offered exemplary customer service, ensuring happy
+                    customers while reaching all sales goals.</li>
+                    <li>Organized Store and made sure it was up to standard</li>
+                </ul>
+                <h4>Sales Associate at <a href="https://shop.advanceautoparts.com" target="_blank" style="cursor:pointer; color:#096192; text-decoration:underline;">Advanced Auto-Parts</a></h4>
+                <p class="education">July 2024 – March 2025</p>
+                <ul>
+                    <li>Dealt with rebuilding the cashiers and systems with my experience in IT.</li>
+                    <li>Offered Incentives, credit cards, and adjusted to the
+                    customers needs to offer these persuasively.</li>
+                    <li>Offered exemplary customer service, ensuring happy
+                    customers while reaching all sales goals.</li>
+                </ul>
+            </section>
+    
+            <div class="divider"></div>
+<!-- Education -->
+            <section class="right-side">
+                <h3>Education</h3>
+                <h5> <a href="https://www.mdc.edu" target="_blank" style="cursor:pointer; color:#096192; text-decoration:underline;">Miami Dade College</a>
+                <h6>Miami, Florida, USA</h6>
+                <h5 style="padding-top: 10px;">Degrees</h5>
+                <ul>
+                    <li class="education">Associate of Arts in Computer Science</li>
+                </ul>
+                <p class="education">GPA in Major: 3.82</p>
+                <p class="education">Graduation Date: 2025</p>
+                </h5>
+<!-- Skills Tree -->
+                <h3>Skills</h3>
+
+                <div class="skill">
+                    <p class="skills">HTML, CSS</p>
+                    <div class="skill-bar-1">
+                      <div class="skill-level-1">Advanced</div>
+                    </div>
+                  </div>                  
+                <div class="skill">
+                    <p class="education">Python, Java, C++</p>
+                    <div class="skill-bar-2">
+                      <div class="skill-level-2">Intermediate</div>
+                    </div>
+                  </div> 
+
+            </section>
+        </div>
+
+    </main>
+
+</body>
+</html>
