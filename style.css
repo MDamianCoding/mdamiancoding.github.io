@@ -148,11 +148,9 @@ li{
 
 /* Responsive layout for small screens */
 @media screen and (max-width: 600px) {
-    html, body {
-        min-height: 100%;
-        margin: 0;
-        overflow: visible; /* Prevents scrolling */
-      }
+    .left-side{
+      margin-right: 20px;
+    }
     main{
         text-align: center;
     }
