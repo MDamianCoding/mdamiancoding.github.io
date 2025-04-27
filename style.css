@@ -149,7 +149,7 @@ li{
 /* Responsive layout for small screens */
 @media screen and (max-width: 600px) {
     .left-side{
-      margin-right: 30px;
+      margin-right: 27px;
     }
     main{
         text-align: center;
